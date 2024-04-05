@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="jumbotron">
+<form class="product-form" #myForm = "ngForm" (submit)="saveProduct(myForm.value)">
+    <h1 class="product-header">Product Form</h1>
+
+    <div class="product-controller">
+        <label>Product Name</label>
+        <input type="text" name="pname" placeholder="Enter Product Name" ngModel>
+    </div>
+
+    <div class="product-controller">
+        <label>Product Price</label>
+        <input type="number" name="price" placeholder="Enter Price of the product" ngModel>
+    </div>
+
+    <div class="product-controller">
+        <label>Product Quantity</label>
+        <input type="number" name="quantity" placeholder="Enter Quantity" ngModel>
+    </div>
+    <div class="product-controller">
+        <button type="submit" class="btn btn-success">Submit</button> 
+       
+    </div>
+</form>
+</div>
+</div>

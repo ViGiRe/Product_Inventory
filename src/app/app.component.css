@@ -1,0 +1,35 @@
+
+
+.main-header{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(13, 24, 227);
+    padding: 0 1.5rem;
+}
+
+.main-header-nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-header-item-list{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-size: large;
+}
+
+.main-header-item{
+    margin: 0 20px ;
+    color: white;
+    text-align: center;
+    display: flex;
+    
+}
+
+.main-header-item a{
+    text-decoration: none;
+    color: white;
+}

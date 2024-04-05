@@ -1,0 +1,18 @@
+.table{
+    color: rgb(15, 15, 7);
+    text-align: center;
+    background-color:rgb(186, 218, 236);
+   
+}
+
+.table-heading{
+    text-align: center;
+    color: rgb(235, 9, 9);
+}
+
+.product-header{
+    color: rgb(18, 139, 204);
+    text-align: center;
+    margin: auto;
+    max-width: 90%;
+}
